@@ -9,8 +9,11 @@ clone the repository, then cd into sm64-moonshine, then run make -j on Linux, or
 Thank you sm64ex https://github.com/sm64pc/sm64ex for making the whole idea of moonshine possible, and all the other things you did to help this community grow!
 
 Thank you to the developers of Moonshine
+
 S4YS
+
 Turnflashed
+
 Fito
 
 

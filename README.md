@@ -15,6 +15,6 @@ Fito
 
 
 
-Thanks PeachyPeach for sm64pc-omm https://github.com/PeachyPeachSM64/sm64pc-omm, that was what game me these files (Note: This does NOT have omm installed.)
+Thanks PeachyPeach for sm64pc-omm https://github.com/PeachyPeachSM64/sm64pc-omm, that was what gave me these files (Note: This does NOT have omm installed.)
 
 And me who got this repo up and running

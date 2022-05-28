@@ -86,6 +86,6 @@ UNUSED static const u64 binid_18 = 18;
 #include "Bee/anims/table.inc.c"
 #include "Moline/model.inc.c"
 #include "goombone/model.inc.c"
-#include "Goombone/anims/data.inc.c"
-#include "Goombone/anims/table.inc.c"
+#include "goombone/anims/data.inc.c"
+#include "goombone/anims/table.inc.c"
 #include "breakable_box_small/model.inc.c"

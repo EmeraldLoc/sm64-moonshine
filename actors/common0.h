@@ -229,7 +229,7 @@ extern const Collision unknown_seg8_collision_080262F8[];
 
 #include "goombone/geo_header.h"
 
-#include "Goombone/anim_header.h"
+#include "goombone/anim_header.h"
 
 #include "breakable_box/geo_header.h"
 

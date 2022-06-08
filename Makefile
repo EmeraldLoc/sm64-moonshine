@@ -118,17 +118,17 @@ ifeq ($(HOST_OS),Darwin)
     CC := gcc-11
     CXX := g++-11
     CPP := cpp-11 -P
-    PLATFORM_CFLAGS := -I /opt/local/include
-    PLATFORM_LDFLAGS := -L /opt/local/lib
+    PLATFORM_CFLAGS := -I /opt/homebrew/include
+    PLATFORM_LDFLAGS := -L /opt/homebrew/lib
   else
     # Using Homebrew?
     ifeq ($(shell which brew >/dev/null 2>&1 && echo y),y)
-      OSX_GCC_VER = $(shell find `brew --prefix`/bin/gcc* | grep -oE '[[:digit:]]+' | sort -n | uniq | tail -1)
+      OSX_GCC_VER = $(shell find /opt/local/bin/gcc* | grep -oE '[[:digit:]]+' | sort -n | uniq | tail -1)
       CC := gcc-11
       CXX := g++-11
       CPP := cpp-11 -P
-      PLATFORM_CFLAGS := -I /usr/local/include
-      PLATFORM_LDFLAGS := -L /usr/local/lib
+      PLATFORM_CFLAGS := -I /opt/homebrew/include
+      PLATFORM_LDFLAGS := -L /opt/homebrew/lib
     else
       $(error No suitable macOS toolchain found, have you installed Homebrew?)
     endif
